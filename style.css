@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+}
+h2{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 70vw;
+    height: 65vh;
+    margin:  auto;
+    background-color: #0d3c5f;
+    overflow-y: auto;
+}
+.message{
+    padding: 10px;
+    background-color: rgb(95, 95, 95);
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+    padding: 3px;
+    background: #9fb4b8;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#messageInp{
+    width: 40vw;
+    padding: 5px;
+}
+
+
